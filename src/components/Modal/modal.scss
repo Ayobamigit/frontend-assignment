@@ -1,0 +1,14 @@
+.Modal {
+    position: fixed;
+    z-index: 500;
+    background-color: white;
+    // width: 70%;
+    // border-radius: 4px;
+    left: 30%;
+    right: 30%;
+    top: 20%;
+    // bottom: 10%;
+    box-sizing: border-box;
+    transition: all 0.3s ease-out;
+    font-family: var(--primaryFont);
+}

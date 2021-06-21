@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+
+
+:root{
+    --primaryFont: 'Inter', sans-serif;
+}
+
+.mt-05{
+    margin-top: 4px;
+}
+
+.pointer{
+    cursor: pointer;
+}
+
+.home{
+    padding: 20px 120px;
+    font-family: var(--primaryFont);
+}
+
+.title{
+    margin-top: 37px;
+    margin-bottom: 23px;
+}
+
+.title-text{
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 28px;
+    margin: 0;
+}
+
+.divider{
+    border-bottom: 1px solid #C0C4CC;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.input-group {
+    position: relative;
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-align: stretch;
+    -ms-flex-align: stretch;
+    align-items: stretch;
+    // width: 100%;
+}
+  
+.input-group > .formcontrol{
+    position: relative;
+    -webkit-box-flex: 1;
+    -ms-flex: 1 1 auto;
+    flex: 1 1 auto;
+    width: 100%;
+    min-width: 0;
+    margin-bottom: 0;
+}
+  
+.formcontrol {
+    display: block;
+    font-family: var(--primaryFont);
+    width: 180px !important;
+    height: 36px !important;
+    padding: 9px 33px;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 21px;
+    color: #898E9A;
+    background-color: inherit;
+    background-clip: padding-box;
+    border: 1px solid #C0C4CC;
+    box-sizing: border-box;
+    border-radius: 2px;
+    letter-spacing: -0.01em;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+    transition: border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out, -webkit-box-shadow 0.15s ease-in-out; 
+    opacity: 1 !important;
+}
+  
+.formcontrol:focus{
+    outline: none;
+    border-color: #898E9A ;
+}
+
+.formcontrol::placeholder{
+    color: #898E9A;
+    font-size: 12px;
+}
+
+.profile-password-icon{
+    position: absolute;
+    top: 10px;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+.movie-details{
+    padding: 20px;
+}
+
+.details-heading{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.details-title{
+    margin: 0;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+}
+
+.details-close{
+    border: 1px solid #141E35;
+    box-sizing: border-box;
+    text-align: center;
+    width: 24px;
+    height: 24px;
+}
+
+.details-grid{
+    margin-top: 16px;
+    display: grid;
+    grid-template-columns: auto auto;
+    column-gap: 20px;
+}
+
+.size{
+    width: 266px;
+    height: 389px;  
+}
+
+.movie-breakdown{
+    font-size: 14px;
+    line-height: 24px;
+    color: #000;
+    margin: 0;
+}
+
+.ln{
+    line-height: 19px !important;
+}
