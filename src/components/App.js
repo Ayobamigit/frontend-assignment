@@ -1,7 +1,11 @@
-import logo from './logo.svg';
+import React from 'react';
+import Home from '../pages/Home';
+import './App.scss';
 
-const App = () => (
-	<img src={logo} alt="Timescale" />
-)
+const App = () => {
+	return (
+		<Home />
+	)
+}
 
 export default App;
